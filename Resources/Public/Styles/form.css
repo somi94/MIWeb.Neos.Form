@@ -1,0 +1,63 @@
+.miupload .miupload-dragndrop {
+    cursor: pointer;
+    border: 2px dashed #aaa;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.miupload .miupload-dragndrop.dragover {
+    border: 2px dashed #F3A430;
+}
+
+.miupload .miupload-file-add {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.miupload .file-entry {
+    border: 1px dashed #ccc;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    position:relative;
+}
+
+.miupload .file-entry .file-preview {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.miupload .file-entry .file-input {
+    display: none;
+}
+
+.miupload .file-entry .file-remove {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 8px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.miupload .file-entry .file-remove:hover {
+    color: #faa;
+}

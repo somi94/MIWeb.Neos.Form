@@ -1,0 +1,18 @@
+Neos:
+  Form:
+    presets:
+      default:
+        formElementTypes:
+          'MIWeb.Neos.Form:FileUpload':
+            superTypes:
+              'Neos.Form:FormElement': true
+              'Neos.Form:FileUpload': true
+            implementationClassName: 'MIWeb\Neos\Form\FormElements\FileUpload'
+            properties:
+              allowedExtensions:
+                - pdf
+                - doc
+  Neos:
+    fusion:
+      autoInclude:
+        'MIWeb.Neos.Form': TRUE

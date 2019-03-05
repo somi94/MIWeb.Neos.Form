@@ -1,0 +1,18 @@
+{
+  "name": "miweb/neos-form",
+  "type": "neos-plugin",
+  "description": "",
+  "require": {
+    "neos/form": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MIWeb\\Neos\\Form\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "MIWeb.Neos.Form"
+    }
+  }
+}
