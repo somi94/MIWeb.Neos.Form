@@ -12,6 +12,15 @@ Neos:
               allowedExtensions:
                 - pdf
                 - doc
+          'MIWeb.Neos.Form:ContentReference':
+            superTypes:
+              'Neos.Form:FormElement': true
+            implementationClassName: 'MIWeb\Neos\Form\FormElements\ContentReference'
+            properties:
+              parent: '/site'
+              type: 'Neos.Neos:Page'
+              dataType: 'Node'
+
   Neos:
     fusion:
       autoInclude:
