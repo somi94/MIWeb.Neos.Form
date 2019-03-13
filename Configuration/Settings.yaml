@@ -12,6 +12,10 @@ Neos:
               allowedExtensions:
                 - pdf
                 - doc
+                - jpg
+                - jpeg
+            renderingOptions:
+              validationErrorTranslationPackage: MIWeb.Neos.Form
           'MIWeb.Neos.Form:ContentReference':
             superTypes:
               'Neos.Form:FormElement': true

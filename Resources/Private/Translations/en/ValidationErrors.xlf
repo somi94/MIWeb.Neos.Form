@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file original="" product-name="MIWeb.Neos.Form" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="1327865587" xml:space="preserve" approved="yes">
+				<source>The given value was not a PersistentResource instance.</source>
+			</trans-unit>
+            <trans-unit id="1327865808" xml:space="preserve" approved="yes">
+				<source>The file has no file extension.</source>
+			</trans-unit>
+            <trans-unit id="1327865764" xml:space="preserve" approved="yes">
+				<source>The file extension "{0}" is not allowed.</source>
+			</trans-unit>
+            <trans-unit id="1264440823" xml:space="preserve" approved="yes">
+                <source>An error occured while uploading. Please check the file size.</source>
+            </trans-unit>
+            <!-- NotEmptyValidator -->
+            <trans-unit id="1221560910" xml:space="preserve">
+				<source>This property is required</source>
+			</trans-unit>
+            <trans-unit id="1221560718" xml:space="preserve">
+				<source>This property is required</source>
+            </trans-unit>
+
+            <trans-unit id="1552470144" xml:space="preserve">
+				<source>Please upload at least {0} files.</source>
+			</trans-unit>
+            <trans-unit id="1552470179" xml:space="preserve">
+				<source>Please upload a maximum of {0} files.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

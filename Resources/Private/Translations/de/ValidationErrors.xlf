@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file original="" product-name="MIWeb.Neos.Form" source-language="en" datatype="plaintext" target-language="de">
+        <body>
+            <trans-unit id="1327865587" xml:space="preserve" approved="yes">
+				<source>The given value was not a PersistentResource instance.</source>
+                <target xml:lang="de" state="translated">Der Wert enthält keine gültige Resource.</target>
+			</trans-unit>
+            <trans-unit id="1327865808" xml:space="preserve" approved="yes">
+				<source>The file has no file extension.</source>
+                <target xml:lang="de" state="translated">Der Datei fehlt eine Dateiendung.</target>
+			</trans-unit>
+            <trans-unit id="1327865764" xml:space="preserve" approved="yes">
+				<source>The file extension "{0}" is not allowed.</source>
+                <target xml:lang="de" state="translated">Die Dateiendung "{0}" ist nicht erlaubt.</target>
+			</trans-unit>
+            <trans-unit id="1264440823" xml:space="preserve" approved="yes">
+				<source>An error occured while uploading. Please check the file size.</source>
+                <target xml:lang="de" state="translated">Beim hochladen der Datei ist ein Fehler aufgetreten. Es wurde keine Datei gefunden, oder sie ist zu groß.</target>
+			</trans-unit>
+            <!-- NotEmptyValidator -->
+            <trans-unit id="1221560910" xml:space="preserve">
+				<source>This property is required</source>
+                <target xml:lang="de" state="translated">Diese Eigenschaft ist erforderlich.</target>
+			</trans-unit>
+            <trans-unit id="1221560718" xml:space="preserve">
+				<source>This property is required</source>
+                <target xml:lang="de" state="translated">Diese Eigenschaft ist erforderlich.</target>
+            </trans-unit>
+
+            <trans-unit id="1552470144" xml:space="preserve">
+				<source>Please upload at least {0} files.</source>
+                <target xml:lang="de" state="translated">Bitte mindestens {0} Datei(en) hochladen.</target>
+			</trans-unit>
+            <trans-unit id="1552470179" xml:space="preserve">
+				<source>Please upload a maximum of {0} files.</source>
+                <target xml:lang="de" state="translated">Bitte maximal {0} Datei(en) hochladen.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
