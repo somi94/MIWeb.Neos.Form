@@ -19,7 +19,7 @@
             this.options = $.extend({}, this.defaultOptions, this.options, this.container.data('options'));
 
             if(this.container.is('input[type="file"]')) {
-                let input = this.container;
+                var input = this.container;
 
                 this.options.inputName = input.attr('name');
 
